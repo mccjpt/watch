@@ -65,34 +65,6 @@ Object: TST <LogicalWatch> 9_2409
 	Decomposed to: TST <WatchApplication>
 Object: TASTW <LogicalWatch> 9_3405
 	Decomposed to: TASTW <WatchApplication>
-Object: To generate fully functional C# or Java watches from these models:
-
-1) To be able to generate, compile and execute code from the watch models, you need to have Visual Studio 2010, 2012 or 2013 or .NET 3.5 or 4.0 for C#, or JDK 7 or 8 for Java. You should specify their paths with Graph | Edit Generators, in the __Paths generator. For more information please refer to the documentation.
-
-2) Set the generation target platform in Graph | Properties... (e.g. C#: Windows, Java: Windows, Java: Linux or Java: Mac OS X).
-
-3) To build the watch models, press the "Build" button from the toolbar, or choose Graph | Generate... and "Autobuild".
-
-On Windows, Linux and Mac OS X the generated code will be compiled and executed automatically. On other platforms you have to manually compile and execute the code which is generated into the reports directory.
-
-Note also that from each WatchApplication graph, you can generate some skeleton C code with the 'C state machine' generator. This code would need linking with a real C framework for buttons etc. before it could be compiled and run. <Note [Watch]> 9_1180
-	Note text: To generate fully functional C# or Java watches from these models:
-
-1) To be able to generate, compile and execute code from the watch models, you need to have Visual Studio 2010, 2012 or 2013 or .NET 3.5 or 4.0 for C#, or JDK 7 or 8 for Java. You should specify their paths with Graph | Edit Generators, in the __Paths generator. For more information please refer to the documentation.
-
-2) Set the generation target platform in Graph | Properties... (e.g. C#: Windows, Java: Windows, Java: Linux or Java: Mac OS X).
-
-3) To build the watch models, press the "Build" button from the toolbar, or choose Graph | Generate... and "Autobuild".
-
-On Windows, Linux and Mac OS X the generated code will be compiled and executed automatically. On other platforms you have to manually compile and execute the code which is generated into the reports directory.
-
-Note also that from each WatchApplication graph, you can generate some skeleton C code with the 'C state machine' generator. This code would need linking with a real C framework for buttons etc. before it could be compiled and run.
-Object: This is the top level diagram for the Watch Example, showing the product family of digital watches. The domain-specific modelling language used here is specifically designed for modelling watch applications. For more details see the Watch Example help, and also the GOPRR and UML projects, and Chapter 9 in "Domain-Specific Modeling", http://dsmbook.com.
-
-Each Watch relationship links to one physical Display definition and one Logical Watch defining its behavior. <Note [Watch]> 9_1940
-	Note text: This is the top level diagram for the Watch Example, showing the product family of digital watches. The domain-specific modelling language used here is specifically designed for modelling watch applications. For more details see the Watch Example help, and also the GOPRR and UML projects, and Chapter 9 in "Domain-Specific Modeling", http://dsmbook.com.
-
-Each Watch relationship links to one physical Display definition and one Logical Watch defining its behavior.
 Relationship: Sporty <Watch> 9_1210
 	Model name: Sporty
 	Documentation: Sporty - a watch for an Athlete...
