@@ -16,6 +16,7 @@ Report 'C state machine'
 		do ~From>Transition;
 		{	'				case '
 			if ~Event; then
+				if ~Event:Long press; then 'LONG' endif
 				do ~Event.Button; { id }
 			else
 				'None'

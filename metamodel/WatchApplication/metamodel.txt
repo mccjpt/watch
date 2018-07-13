@@ -101,6 +101,7 @@ DisplayFnBody
 Event
 	Used with Transition relationship to associate the transition with its triggering event.
 	---------------------------------------------
+	Long press: Boolean
 From
 	Used with Transition relationship to denote the State object from which the transition is started. Used with RingState relationship to associate the raising of alarm with activating system alarm.
 	---------------------------------------------

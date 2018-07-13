@@ -168,35 +168,42 @@ Relationship: Set <Set> 9_3179
   Role: Get <Get>  Object: <Variable> 9_3346
   Role: Set <Set>  Object: <Variable> 9_3502
 Relationship: Transition <Transition> 9_732
-  Role: Event <Event>  Object: <Button> 9_2489
+  Role: F <Event>  Object: <Button> 9_2489
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_3215
   Role: To <To>  Object: <Stop [Watch]> 9_3107
 Relationship: Transition <Transition> 9_736
-  Role: Event <Event>  Object: <Button> 9_2489
+  Role: F <Event>  Object: <Button> 9_2489
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_467
   Role: To <To>  Object: <Stop [Watch]> 9_3107
 Relationship: Transition <Transition> 9_824
   Role: Action <Action>  Object: <Action> 9_2828
-  Role: Event <Event>  Object: <Button> 9_1963
+  Role: F <Event>  Object: <Button> 9_1963
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_3215
   Role: To <To>  Object: <State [Watch]> 9_3215
 Relationship: Transition <Transition> 9_901
   Role: Action <Action>  Object: <Action> 9_2482
-  Role: Event <Event>  Object: <Button> 9_1963
+  Role: F <Event>  Object: <Button> 9_1963
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_773
   Role: To <To>  Object: <State [Watch]> 9_773
 Relationship: Transition <Transition> 9_1300
-  Role: Event <Event>  Object: <Button> 9_1072
+  Role: F <Event>  Object: <Button> 9_1072
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_3215
   Role: To <To>  Object: <State [Watch]> 9_2348
 Relationship: Transition <Transition> 9_1331
   Role: Action <Action>  Object: <Action> 9_2661
-  Role: Event <Event>  Object: <Button> 9_886
+  Role: F <Event>  Object: <Button> 9_886
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_2348
   Role: To <To>  Object: <State [Watch]> 9_2348
 Relationship: Transition <Transition> 9_1378
   Role: Action <Action>  Object: <Action> 9_1726
-  Role: Event <Event>  Object: <Button> 9_886
+  Role: F <Event>  Object: <Button> 9_886
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_773
   Role: To <To>  Object: <State [Watch]> 9_773
 Relationship: Transition <Transition> 9_1390
@@ -204,21 +211,25 @@ Relationship: Transition <Transition> 9_1390
   Role: To <To>  Object: <State [Watch]> 9_3215
 Relationship: Transition <Transition> 9_1818
   Role: Action <Action>  Object: <Action> 9_942
-  Role: Event <Event>  Object: <Button> 9_886
+  Role: F <Event>  Object: <Button> 9_886
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_3215
   Role: To <To>  Object: <State [Watch]> 9_467
 Relationship: Transition <Transition> 9_2028
   Role: Action <Action>  Object: <Action> 9_2181
-  Role: Event <Event>  Object: <Button> 9_1963
+  Role: F <Event>  Object: <Button> 9_1963
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_2348
   Role: To <To>  Object: <State [Watch]> 9_2348
 Relationship: Transition <Transition> 9_2239
   Role: Action <Action>  Object: <Action> 9_2828
-  Role: Event <Event>  Object: <Button> 9_1072
+  Role: F <Event>  Object: <Button> 9_1072
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_773
   Role: To <To>  Object: <State [Watch]> 9_3215
 Relationship: Transition <Transition> 9_2487
-  Role: Event <Event>  Object: <Button> 9_2489
+  Role: F <Event>  Object: <Button> 9_2489
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_2348
   Role: To <To>  Object: <State [Watch]> 9_773
 Relationship: Transition <Transition> 9_2970
@@ -226,16 +237,19 @@ Relationship: Transition <Transition> 9_2970
   Role: From <From>  Object: <State [Watch]> 9_1420
   Role: To <To>  Object: <State [Watch]> 9_3215
 Relationship: Transition <Transition> 9_3003
-  Role: Event <Event>  Object: <Button> 9_2489
+  Role: F <Event>  Object: <Button> 9_2489
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_773
   Role: To <To>  Object: <State [Watch]> 9_2348
 Relationship: Transition <Transition> 9_3316
   Role: Action <Action>  Object: <Action> 9_2828
-  Role: Event <Event>  Object: <Button> 9_1072
+  Role: F <Event>  Object: <Button> 9_1072
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_2348
   Role: To <To>  Object: <State [Watch]> 9_3215
 Relationship: Transition <Transition> 9_3467
   Role: Action <Action>  Object: <Action> 9_2018
-  Role: Event <Event>  Object: <Button> 9_886
+  Role: F <Event>  Object: <Button> 9_886
+	Long press: F
   Role: From <From>  Object: <State [Watch]> 9_467
   Role: To <To>  Object: <State [Watch]> 9_3215
